@@ -76,6 +76,12 @@ sudo dnf update @sound-and-video # Installs useful Sound and Video complement pa
 * ~~dnf group info 'sound-and-video' # Shows all optional packages included.~~
 * ~~sudo dnf group install --with-optional --skip-broken 'sound-and-video' # Installs all optional packages in the group.~~
 
+* Install these if you want DVD Playback
+````
+sudo dnf install rpmfusion-free-release-tainted # Tainted free is dedicated for FLOSS packages where some usages might be restricted in some countries.
+sudo dnf install libdvdcss
+````
+
 ## H/W Video Acceleration
 * Helps decrease load on the CPU when watching videos online by alloting the rendering to the dGPU/iGPU. Quite helpful in increasing battery backup on laptops.
 
