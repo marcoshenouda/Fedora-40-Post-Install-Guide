@@ -73,8 +73,8 @@ sudo dnf update @multimedia --setopt="install_weak_deps=False" --exclude=Package
 sudo dnf group install 'sound-and-video' # All packages in this group are listed as optional.
 sudo dnf update @sound-and-video # Installs useful Sound and Video complement packages.
 ````
-~~dnf group info 'sound-and-video' # Shows all optional packages included.~~
-~~sudo dnf group install --with-optional --skip-broken 'sound-and-video' # Installs all optional packages in the group.~~
+* ~~dnf group info 'sound-and-video' # Shows all optional packages included.~~
+* ~~sudo dnf group install --with-optional --skip-broken 'sound-and-video' # Installs all optional packages in the group.~~
 
 ## H/W Video Acceleration
 * Helps decrease load on the CPU when watching videos online by alloting the rendering to the dGPU/iGPU. Quite helpful in increasing battery backup on laptops.
