@@ -192,46 +192,15 @@ DNSOverTLS=yes
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
 * These are Some Packages that I use and would recommend:
 ```
-Amberol
-Blanket
-Builder
-Brave 
-Blender
-Discord
-Drawing
-Deja Dup Backups
-Endeavour 
-Easyeffects
-Extension Manager
-Flatseal
-Foliate
-Footage
-GIMP
-Gnome Tweaks
-Gradience
-Handbrake
-Iotas
-Joplin
-Khronos
-Krita
-Logseq
-lm_sensors
-Onlyoffice
-Overskride
-Parabolic
-Pcloud
-PDF Arranger
-Planify
-Pika backup 
-Snapshot
-Solanum
-Sound Recorder
-Tangram
-Transmission
-Ulauncher
-Upscaler
-Video Trimmer
-VS Codium
+chromium
+discord
+gthumb
+lutris
+mpv
+steam
+vlc
+wine
+winetricks
 yt-dlp
 ```
   
