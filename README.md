@@ -115,6 +115,7 @@ sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
 * Add `nvidia-drm.modeset=1` to `GRUB_CMDLINE_LINUX=`
 * Example: `GRUB_CMDLINE_LINUX="rhgb quiet rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1"`
 * Next run `sudo grub2-mkconfig -o /boot/grub2/grub.cfg`
+* Run `sudo nano /etc/environment` then add `LIBVA_DRIVER_NAME=nvidia`
 </details>
 
 ### OpenH264 for Firefox
