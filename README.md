@@ -105,6 +105,14 @@ sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
 ```
 </details>
 
+<details>
+<summary>Nvidia</summary>
+ 
+* If you have an Nvidia GPU after installing the packages above., Do:
+* `sudo dnf install libva-nvidia-driver`
+* This library requires that the `nvidia_drm kernel module` is configured with the parameter `nvidia-drm.modeset=1`
+</details>
+
 ### OpenH264 for Firefox
 * `sudo dnf config-manager --set-enabled fedora-cisco-openh264`
 * `sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264`
