@@ -206,6 +206,7 @@ yt-dlp
 
 ## Flathub Apps [Optional]
 * These are Some Flathub Packages that I use and would recommend:
+* [Spotify](https://flathub.org/apps/com.spotify.Client)
 * [ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2)
 * [Heroic Games Launcher](https://flathub.org/apps/com.heroicgameslauncher.hgl)
   
