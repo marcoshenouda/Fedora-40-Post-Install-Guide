@@ -71,8 +71,8 @@ sudo dnf swap 'ffmpeg-free' 'ffmpeg' --allowerasing # Switch to full FFMPEG.
 sudo dnf group install Multimedia
 sudo dnf update @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin # Installs gstreamer components. Required if you use Gnome Videos and other dependent applications.
 sudo dnf group install 'sound-and-video' # All packages in this group are listed as optional.
-dnf group info 'sound-and-video' # Shows all optional packages included.
-sudo dnf group install --with-optional --skip-broken 'sound-and-video' # Installs all optional packages in the group.
+~~ dnf group info 'sound-and-video' # Shows all optional packages included. ~~
+~~ sudo dnf group install --with-optional --skip-broken 'sound-and-video' # Installs all optional packages in the group. ~~
 sudo dnf update @sound-and-video # Installs useful Sound and Video complement packages.
 ````
 
