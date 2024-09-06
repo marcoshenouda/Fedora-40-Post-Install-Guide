@@ -206,9 +206,7 @@ yt-dlp
 
 ## Flathub Apps [Optional]
 * These are Some Flathub Packages that I use and would recommend:
-```
 * [ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2)
-```
   
 ## Theming [Optional]
 
