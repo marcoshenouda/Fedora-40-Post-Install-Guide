@@ -118,6 +118,12 @@ sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
 * Run `sudo nano /etc/environment` then add `LIBVA_DRIVER_NAME=nvidia`
 </details>
 
+### Potential Fix for Audio Crackling/Latency
+* `sudo grubby --args="preempt=full" --update-kernel=ALL`
+* After this, reboot your PC. Then run this command to check if it worked:
+* `sudo dmesg | grep Preempt`
+* You should see a line that says something like: `Dynamic Preempt: full`.
+
 ### OpenH264 for Firefox
 * `sudo dnf config-manager --set-enabled fedora-cisco-openh264`
 * `sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264`
