@@ -112,12 +112,14 @@ sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
 * `sudo dnf install libva-nvidia-driver`
 * This library requires that the `nvidia_drm kernel module` is configured with the parameter `nvidia-drm.modeset=1`
 * `sudo grubby --update-kernel=ALL --args="nvidia-drm.modeset=1"`
+* Run `sudo nano /etc/environment` then add `LIBVA_DRIVER_NAME=nvidia`
+</details>
+
 * ~~ sudo nano /etc/default/grub ~~
 * Add `nvidia-drm.modeset=1` to `GRUB_CMDLINE_LINUX=`
 * Example: `GRUB_CMDLINE_LINUX="rhgb quiet rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1"`
 * Next run `sudo grub2-mkconfig -o /boot/grub2/grub.cfg`
-* Run `sudo nano /etc/environment` then add `LIBVA_DRIVER_NAME=nvidia`
-</details>
+
 
 ### Potential Fix for Audio Crackling/Latency
 * `sudo grubby --args="preempt=full" --update-kernel=ALL`
