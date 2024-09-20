@@ -194,6 +194,8 @@ DNSOverTLS=yes
 ```
 chromium
 discord
+gnome-extensions-app
+gnome-tweaks
 gthumb
 lutris
 mpv
