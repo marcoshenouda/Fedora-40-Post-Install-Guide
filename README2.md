@@ -192,6 +192,7 @@ DNSOverTLS=yes
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
 * These are Some Packages that I use and would recommend:
 ```
+calibre
 chromium
 discord
 gnome-extensions-app
