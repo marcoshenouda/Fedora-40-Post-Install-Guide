@@ -209,49 +209,59 @@ DNSOverTLS=yes
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
 * These are Some Packages that I use and would recommend:
 ```
-Amberol
-Blanket
-Builder
-Brave 
-Blender
-Discord
-Drawing
-Deja Dup Backups
-Endeavour 
-Easyeffects
-Extension Manager
-Flatseal
-Foliate
-Footage
-GIMP
 Gnome Tweaks
-Gradience
-Handbrake
-Iotas
-Joplin
-Khronos
-Krita
-Logseq
-lm_sensors
-Onlyoffice
-Overskride
-Parabolic
-Pcloud
-PDF Arranger
-Planify
-Pika backup 
-Snapshot
-Solanum
-Sound Recorder
-Tangram
-Transmission
-Ulauncher
-Upscaler
-Video Trimmer
-VS Codium
+Extensions
+Wine
+Winetricks
+vkBasalt
+Gamescope
+Gamemode
+Mangohud
+Goverlay
+Mpv
+Vlc
+SMplayer
+Celluloid
+Audacious
+Lollypop
+Strawberry
+Gapless (G4Music)
+Amberol (Flatpak)
 yt-dlp
+Gthumb
+Piper
+Solaar
+Steam
+Lutris
+Heroic Launcher (Local RPM file)
+bottles
+Protonup-Qt (Flatpak)
+Protontricks
+Flatseal
+Spotify (Flatpak)
+Dolphin-emu
+PCSX2 (Flatpak)
+Duckstation (Flatpak)
+melonDS (Flatpak)
+PPSSPP (Flatpak)
+Ryujinx (Flatpak)
+Cemu (Flatpak)
+Chromium
+Discord
+Calibre 
+Visual Studio Code (Enable Microsoft VSCode repo)
+innoextract
+lgogdownloader
+fastfetch
+cmatrix
 ```
-  
+
+## Flathub Apps [Optional]
+* These are Some Flathub Packages that I use and would recommend:
+* [Spotify](https://flathub.org/apps/com.spotify.Client)
+* [ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2)
+* [Heroic Games Launcher](https://flathub.org/apps/com.heroicgameslauncher.hgl)
+
 ## Theming [Optional]
 
 ### GTK Themes
