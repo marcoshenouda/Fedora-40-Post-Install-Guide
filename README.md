@@ -241,16 +241,9 @@ heroic
 bottles
 protontricks
 flatseal
-dolphin-emu
 innoextract
 lgogdownloader
 cmatrix
-PCSX2 (Flatpak)
-Duckstation (Flatpak)
-melonDS (Flatpak)
-PPSSPP (Flatpak)
-Ryujinx (Flatpak)
-Cemu (Flatpak) 
 Visual Studio Code (Enable Microsoft VSCode repo)
 ```
 
@@ -288,7 +281,6 @@ Visual Studio Code (Enable Microsoft VSCode repo)
 * [bottles](https://packages.fedoraproject.org/pkgs/bottles/bottles/)
 * [protontricks](https://packages.fedoraproject.org/pkgs/protontricks/protontricks/)
 * [flatseal](https://packages.fedoraproject.org/pkgs/flatseal/flatseal/)
-* [dolphin-emu](https://packages.fedoraproject.org/pkgs/dolphin-emu/dolphin-emu/)
 * [innoextract](https://packages.fedoraproject.org/pkgs/innoextract/innoextract/)
 * [lgogdownloader](https://packages.fedoraproject.org/pkgs/lgogdownloader/lgogdownloader/)
 * [cmatrix](https://packages.fedoraproject.org/pkgs/cmatrix/cmatrix/)
