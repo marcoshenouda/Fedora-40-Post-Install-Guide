@@ -209,26 +209,26 @@ DNSOverTLS=yes
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
 * These are Some Packages that I use and would recommend:
 ```
-Gnome Tweaks
-Extensions
-Wine
-Winetricks
+file-roller
+gthumb
+gnome-tweaks
+gnome-extensions-app
+wine
+winetricks
 vkBasalt
-Gamescope
-Gamemode
-Mangohud
-Goverlay
-Mpv
-Vlc
-SMplayer
-Celluloid
-Audacious
-Lollypop
-Strawberry
-Gapless (G4Music)
-Amberol (Flatpak)
+gamemode
+gamescope
+mangohud
+goverlay
+vlc
+mpv
+celluloid
+smplayer
+audacious
+lollypop
+strawberry
+g4music
 yt-dlp
-Gthumb
 Piper
 Solaar
 Steam
@@ -256,8 +256,32 @@ fastfetch
 cmatrix
 ```
 
-## Flathub Apps [Optional]
+## App Links [Optional]
 * These are Some Flathub Packages that I use and would recommend:
+* [file-roller](https://packages.fedoraproject.org/pkgs/file-roller/file-roller/)
+* [gthumb](https://packages.fedoraproject.org/pkgs/gthumb/gthumb/)
+* [gnome-tweaks](https://packages.fedoraproject.org/pkgs/gnome-tweaks/gnome-tweaks/)
+* [gnome-extensions-app](https://packages.fedoraproject.org/pkgs/gnome-extensions-app/gnome-extensions-app/)
+* [wine](https://packages.fedoraproject.org/pkgs/wine/wine/)
+* [winetricks](https://packages.fedoraproject.org/pkgs/winetricks/winetricks/)
+* [vkBasalt](https://packages.fedoraproject.org/pkgs/vkBasalt/vkBasalt/index.html)
+* [gamemode](https://packages.fedoraproject.org/pkgs/gamemode/gamemode/)
+* [gamescope](https://packages.fedoraproject.org/pkgs/gamescope/gamescope/)
+* [mangohud](https://packages.fedoraproject.org/pkgs/mangohud/mangohud/)
+* [goverlay](https://packages.fedoraproject.org/pkgs/goverlay/goverlay/)
+* [vlc](https://packages.fedoraproject.org/pkgs/vlc/vlc/)
+* [mpv](https://packages.fedoraproject.org/pkgs/mpv/mpv/)
+* [celluloid](https://packages.fedoraproject.org/pkgs/celluloid/celluloid/)
+* [smplayer](https://packages.fedoraproject.org/pkgs/smplayer/smplayer/)
+* [audacious](https://packages.fedoraproject.org/pkgs/audacious/audacious/)
+* [lollypop](https://packages.fedoraproject.org/pkgs/lollypop/lollypop/)
+* [strawberry](https://packages.fedoraproject.org/pkgs/strawberry/strawberry/)
+* [g4music](https://packages.fedoraproject.org/pkgs/g4music/g4music/)
+* [yt-dlp](https://packages.fedoraproject.org/pkgs/yt-dlp/yt-dlp/)
+
+## Flatpaks [Optional]
+* These are Some Flathub Packages that I use and would recommend:
+* [Amberol](https://flathub.org/apps/io.bassi.Amberol)
 * [Spotify](https://flathub.org/apps/com.spotify.Client)
 * [ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2)
 * [Heroic Games Launcher](https://flathub.org/apps/com.heroicgameslauncher.hgl)
