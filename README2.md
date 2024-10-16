@@ -233,7 +233,6 @@ Upscaler
 Video Trimmer
 VS Codium
 yt-dlp
-[Spotify](https://flathub.org/apps/com.spotify.Client)
 ```
 
 ## Flathub Apps [Optional]
