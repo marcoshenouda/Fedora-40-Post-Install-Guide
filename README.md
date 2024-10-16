@@ -138,7 +138,7 @@ sudo dnf swap mesa-vdpau-drivers.i686 mesa-vdpau-drivers-freeworld.i686
 ### OpenH264 for Firefox
 * `sudo dnf config-manager --set-enabled fedora-cisco-openh264`
 * `sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264`
-* After this enable the OpenH264 Plugin in Firefox's settings.
+* Afterwards you need open Firefox, go to menu -> Add-ons -> Plugins and enable OpenH264 plugin.
 
 ## Set Hostname
 * `hostnamectl set-hostname YOUR_HOSTNAME`
