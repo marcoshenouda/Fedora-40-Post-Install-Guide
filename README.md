@@ -243,7 +243,6 @@ heroic
 bottles
 protontricks
 flatseal
-dolphin-emu
 innoextract
 lgogdownloader
 cmatrix
@@ -284,7 +283,6 @@ Visual Studio Code (Enable Microsoft VSCode repo)
 * [bottles](https://packages.fedoraproject.org/pkgs/bottles/bottles/)
 * [protontricks](https://packages.fedoraproject.org/pkgs/protontricks/protontricks/)
 * [flatseal](https://packages.fedoraproject.org/pkgs/flatseal/flatseal/)
-* [dolphin-emu](https://packages.fedoraproject.org/pkgs/dolphin-emu/dolphin-emu/)
 * [innoextract](https://packages.fedoraproject.org/pkgs/innoextract/innoextract/)
 * [lgogdownloader](https://packages.fedoraproject.org/pkgs/lgogdownloader/lgogdownloader/)
 * [cmatrix](https://packages.fedoraproject.org/pkgs/cmatrix/cmatrix/)
@@ -295,12 +293,6 @@ Visual Studio Code (Enable Microsoft VSCode repo)
 * [Spotify](https://flathub.org/apps/com.spotify.Client)
 * [ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2)
 * [Heroic Games Launcher](https://flathub.org/apps/com.heroicgameslauncher.hgl)
-* [PCSX2](https://pcsx2.net/)
-* [DuckStation](https://flathub.org/apps/org.duckstation.DuckStation)
-* [PPSSPP](https://flathub.org/apps/org.ppsspp.PPSSPP)
-* [melonDS](https://flathub.org/apps/net.kuribo64.melonDS)
-* [Cemu](https://flathub.org/apps/info.cemu.Cemu)
-* [Ryujinx](https://flathub.org/apps/org.ryujinx.Ryujinx)
 
 ## Installing Visual Studio Code [Optional]
 * Installing VSCode through RPM:
