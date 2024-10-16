@@ -207,7 +207,9 @@ DNSOverTLS=yes
 ## Apps [Optional]
 * Packages for Rar and 7z compressed files support:
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
-* These are Some Packages that I use and would recommend:
+
+### List
+* These are a list of some packages that I use and would recommend:
 ```
 gnome-tweaks
 gnome-extensions-app
@@ -241,14 +243,15 @@ heroic
 bottles
 protontricks
 flatseal
+dolphin-emu
 innoextract
 lgogdownloader
 cmatrix
 Visual Studio Code (Enable Microsoft VSCode repo)
 ```
 
-## App Links [Optional]
-* These are Some Flathub Packages that I use and would recommend:
+### Links
+* These are repository links to the packages from the previous list:
 * [gnome-tweaks](https://packages.fedoraproject.org/pkgs/gnome-tweaks/gnome-tweaks/)
 * [gnome-extensions-app](https://packages.fedoraproject.org/pkgs/gnome-extensions-app/gnome-extensions-app/)
 * [fastfetch](https://packages.fedoraproject.org/pkgs/fastfetch/fastfetch/)
@@ -281,6 +284,7 @@ Visual Studio Code (Enable Microsoft VSCode repo)
 * [bottles](https://packages.fedoraproject.org/pkgs/bottles/bottles/)
 * [protontricks](https://packages.fedoraproject.org/pkgs/protontricks/protontricks/)
 * [flatseal](https://packages.fedoraproject.org/pkgs/flatseal/flatseal/)
+* [dolphin-emu](https://packages.fedoraproject.org/pkgs/dolphin-emu/dolphin-emu/)
 * [innoextract](https://packages.fedoraproject.org/pkgs/innoextract/innoextract/)
 * [lgogdownloader](https://packages.fedoraproject.org/pkgs/lgogdownloader/lgogdownloader/)
 * [cmatrix](https://packages.fedoraproject.org/pkgs/cmatrix/cmatrix/)
@@ -291,6 +295,26 @@ Visual Studio Code (Enable Microsoft VSCode repo)
 * [Spotify](https://flathub.org/apps/com.spotify.Client)
 * [ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2)
 * [Heroic Games Launcher](https://flathub.org/apps/com.heroicgameslauncher.hgl)
+* [PCSX2](https://pcsx2.net/)
+* [DuckStation](https://flathub.org/apps/org.duckstation.DuckStation)
+* [PPSSPP](https://flathub.org/apps/org.ppsspp.PPSSPP)
+* [melonDS](https://flathub.org/apps/net.kuribo64.melonDS)
+* [Cemu](https://flathub.org/apps/info.cemu.Cemu)
+* [Ryujinx](https://flathub.org/apps/org.ryujinx.Ryujinx)
+
+## Installing Visual Studio Code [Optional]
+* Installing VSCode through RPM:
+* Check this link for up to date instructions: [VSCode on Fedora](https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions)
+* The following script will install the key and repository:
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+```
+* Then update the package cache and install the package using dnf (Fedora 22 and above):
+```
+dnf check-update
+sudo dnf install code # or code-insiders
+```
 
 ## Theming [Optional]
 
