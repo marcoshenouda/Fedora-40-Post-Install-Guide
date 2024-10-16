@@ -209,10 +209,9 @@ DNSOverTLS=yes
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
 * These are Some Packages that I use and would recommend:
 ```
-file-roller
-gthumb
 gnome-tweaks
 gnome-extensions-app
+fastfetch
 wine
 winetricks
 vkBasalt
@@ -229,39 +228,37 @@ lollypop
 strawberry
 g4music
 yt-dlp
-Piper
-Solaar
-Steam
-Lutris
-Heroic Launcher (Local RPM file)
+file-roller
+gthumb
+piper
+solaar
+chromium
+calibre
+discord
+steam
+lutris
+heroic
 bottles
-Protonup-Qt (Flatpak)
-Protontricks
-Flatseal
-Spotify (Flatpak)
-Dolphin-emu
+protontricks
+flatseal
+dolphin-emu
+innoextract
+lgogdownloader
+cmatrix
 PCSX2 (Flatpak)
 Duckstation (Flatpak)
 melonDS (Flatpak)
 PPSSPP (Flatpak)
 Ryujinx (Flatpak)
-Cemu (Flatpak)
-Chromium
-Discord
-Calibre 
+Cemu (Flatpak) 
 Visual Studio Code (Enable Microsoft VSCode repo)
-innoextract
-lgogdownloader
-fastfetch
-cmatrix
 ```
 
 ## App Links [Optional]
 * These are Some Flathub Packages that I use and would recommend:
-* [file-roller](https://packages.fedoraproject.org/pkgs/file-roller/file-roller/)
-* [gthumb](https://packages.fedoraproject.org/pkgs/gthumb/gthumb/)
 * [gnome-tweaks](https://packages.fedoraproject.org/pkgs/gnome-tweaks/gnome-tweaks/)
 * [gnome-extensions-app](https://packages.fedoraproject.org/pkgs/gnome-extensions-app/gnome-extensions-app/)
+* [fastfetch](https://packages.fedoraproject.org/pkgs/fastfetch/fastfetch/)
 * [wine](https://packages.fedoraproject.org/pkgs/wine/wine/)
 * [winetricks](https://packages.fedoraproject.org/pkgs/winetricks/winetricks/)
 * [vkBasalt](https://packages.fedoraproject.org/pkgs/vkBasalt/vkBasalt/index.html)
@@ -278,6 +275,23 @@ cmatrix
 * [strawberry](https://packages.fedoraproject.org/pkgs/strawberry/strawberry/)
 * [g4music](https://packages.fedoraproject.org/pkgs/g4music/g4music/)
 * [yt-dlp](https://packages.fedoraproject.org/pkgs/yt-dlp/yt-dlp/)
+* [file-roller](https://packages.fedoraproject.org/pkgs/file-roller/file-roller/)
+* [gthumb](https://packages.fedoraproject.org/pkgs/gthumb/gthumb/)
+* [piper](https://packages.fedoraproject.org/pkgs/piper/piper/)
+* [solaar](https://packages.fedoraproject.org/pkgs/solaar/solaar/)
+* [chromium](https://packages.fedoraproject.org/pkgs/chromium/chromium/)
+* [calibre](https://packages.fedoraproject.org/pkgs/calibre/calibre/)
+* [discord](https://admin.rpmfusion.org/pkgdb/package/nonfree/discord/)
+* [steam](https://admin.rpmfusion.org/pkgdb/package/nonfree/steam/)
+* [lutris](https://packages.fedoraproject.org/pkgs/lutris/lutris/)
+* [heroic](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/latest)
+* [bottles](https://packages.fedoraproject.org/pkgs/bottles/bottles/)
+* [protontricks](https://packages.fedoraproject.org/pkgs/protontricks/protontricks/)
+* [flatseal](https://packages.fedoraproject.org/pkgs/flatseal/flatseal/)
+* [dolphin-emu](https://packages.fedoraproject.org/pkgs/dolphin-emu/dolphin-emu/)
+* [innoextract](https://packages.fedoraproject.org/pkgs/innoextract/innoextract/)
+* [lgogdownloader](https://packages.fedoraproject.org/pkgs/lgogdownloader/lgogdownloader/)
+* [cmatrix](https://packages.fedoraproject.org/pkgs/cmatrix/cmatrix/)
 
 ## Flatpaks [Optional]
 * These are Some Flathub Packages that I use and would recommend:
