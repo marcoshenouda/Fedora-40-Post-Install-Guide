@@ -11,7 +11,7 @@ installonly_limit=3
 clean_requirements_on_remove=True 
 best=False 
 skip_if_unavailable=True 
-max_parallel_downloads=10 
+max_parallel_downloads=20 
 ``` 
 * Note: The `fastestmirror=1` and `deltarpm=true` arguments were removed. Avoid using these even if you find them in other guides. They are counterproductive at best.
 
