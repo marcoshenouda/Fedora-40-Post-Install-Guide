@@ -235,6 +235,7 @@ gthumb
 piper
 solaar
 bchunk
+perl-Archive-Zip
 chromium
 calibre
 discord
@@ -276,6 +277,7 @@ Visual Studio Code (Enable Microsoft VSCode repo)
 * [piper](https://packages.fedoraproject.org/pkgs/piper/piper/)
 * [solaar](https://packages.fedoraproject.org/pkgs/solaar/solaar/)
 * [bchunk](https://packages.fedoraproject.org/pkgs/bchunk/bchunk/)
+* [perl-Archive-Zip](https://packages.fedoraproject.org/pkgs/perl-Archive-Zip/perl-Archive-Zip/)
 * [chromium](https://packages.fedoraproject.org/pkgs/chromium/chromium/)
 * [calibre](https://packages.fedoraproject.org/pkgs/calibre/calibre/)
 * [discord](https://admin.rpmfusion.org/pkgdb/package/nonfree/discord/)
